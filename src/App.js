@@ -10,7 +10,7 @@ const App = () => {
 
   const buscarCoctel = (nombre) => {
     const coctelEncontrado = cocteles.find(
-      (coctel) => coctel.nombre.toLowerCase().replace(/\s+/g, '') === nombre.toLowerCase().replace(/\s+/g, '')
+      (coctel) => coctel.nombre.toLowerCase().replace(/\s+/g, '') === nombre
     );
 
     setCoctelBuscado(coctelEncontrado);

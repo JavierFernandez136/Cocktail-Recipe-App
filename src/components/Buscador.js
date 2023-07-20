@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-
-import { Paper, IconButton } from "@mui/material";
-import {Search} from '@mui/icons-material';
+import { Paper, IconButton, InputAdornment, TextField } from "@mui/material";
+import { Search } from '@mui/icons-material';
 
 const Buscador = ({ onBuscar }) => {
   const [busqueda, setBusqueda] = useState('');
@@ -12,23 +11,26 @@ const Buscador = ({ onBuscar }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    onBuscar(busqueda);
+    onBuscar(busqueda.trim().toLowerCase().replace(/\s+/g, ''));
   };
 
   return (
-    <Paper onSubmit={handleSubmit}>
-      <input
+    <Paper component="form" onSubmit={handleSubmit}>
+      <TextField
         label="Buscar cóctel"
         value={busqueda}
         onChange={handleInputChange}
         variant="outlined"
-      >
-      </input>
-      <IconButton type="submit" sx={{
-          p:'10px',color:'grey'
-        }}>
-          <Search/>
-        </IconButton>
+        InputProps={{
+          endAdornment: (
+            <InputAdornment position="end">
+              <IconButton type="submit">
+                <Search />
+              </IconButton>
+            </InputAdornment>
+          )
+        }}
+      />
     </Paper>
   );
 };
