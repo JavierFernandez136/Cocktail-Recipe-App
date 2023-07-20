@@ -15,7 +15,7 @@ const cocteles = [
       cristaleria: 'Copa de margarita',
       garnish: 'Rodaja de limón',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/margarita.jpg',
+      imagen: '/margarita.jpg',
     },
    
     {
@@ -25,7 +25,7 @@ const cocteles = [
       cristaleria: 'Vaso Old Fashioned',
       garnish: 'Twist de naranja y cereza',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/oldFashioned.jpg',
+      imagen: '/oldFashioned.jpg',
     },
     {
       nombre: 'Negroni',
@@ -34,7 +34,7 @@ const cocteles = [
       cristaleria: 'Vaso Old Fashioned',
       garnish: 'Twist de naranja',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/negroni.jpg',
+      imagen: '/negroni.jpg',
     },
     {
       nombre: 'Martini',
@@ -43,7 +43,7 @@ const cocteles = [
       cristaleria: 'Copa de martini',
       garnish: 'Aceituna o twist de limón',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/martini.jpg',
+      imagen: '/martini.jpg',
     },
     
     {
@@ -53,7 +53,7 @@ const cocteles = [
       cristaleria: 'Copa de martini',
       garnish: 'Twist de lima',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/cosmopolitan.jpg',
+      imagen: '/cosmopolitan.jpg',
     },
     {
       nombre: 'Daiquiri',
@@ -62,7 +62,7 @@ const cocteles = [
       cristaleria: 'Copa de cóctel',
       garnish: 'Rueda de lima',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/daiquiri.jpg',
+      imagen: '/daiquiri.jpg',
     },
     {
       nombre: 'Gimlet',
@@ -71,7 +71,7 @@ const cocteles = [
       cristaleria: 'Copa de cóctel',
       garnish: 'Rueda de lima',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/gimlet.jpg',
+      imagen: '/gimlet.jpg',
     },
     {
       nombre: 'Sazerac',
@@ -80,7 +80,7 @@ const cocteles = [
       cristaleria: 'Vaso Old Fashioned',
       garnish: 'Cáscara de limón',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/Sazerac.jpg',
+      imagen: '/Sazerac.jpg',
     },
     {
       nombre: 'Sidecar',
@@ -89,7 +89,7 @@ const cocteles = [
       cristaleria: 'Copa de cóctel',
       garnish: 'Twist de limón',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/Sidecar.jpg',
+      imagen: '/Sidecar.jpg',
     },
     {
       nombre: 'Manhattan',
@@ -98,7 +98,7 @@ const cocteles = [
       cristaleria: 'Copa de cóctel',
       garnish: 'Cereza',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/Manhattan.jpg',
+      imagen: '/Manhattan.jpg',
     },
     {
       nombre: 'Mai Tai',
@@ -107,7 +107,7 @@ const cocteles = [
       cristaleria: 'Vaso highball',
       garnish: 'Cereza y rodaja de piña',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/MaiTai.jpg',
+      imagen: '/MaiTai.jpg',
     },
     {
       nombre: 'Tom Collins',
@@ -116,7 +116,7 @@ const cocteles = [
       cristaleria: 'Vaso highball',
       garnish: 'Rodaja de limón y cereza',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/TomCollins.jpg',
+      imagen: '/TomCollins.jpg',
     },
     {
       nombre: 'Bloody Mary',
@@ -125,7 +125,7 @@ const cocteles = [
       cristaleria: 'Vaso highball',
       garnish: 'Apio, rodaja de limón y lima, aceituna',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/BloodyMary.jpg',
+      imagen: '/BloodyMary.jpg',
     },
     {
       nombre: 'Mint Julep',
@@ -134,7 +134,7 @@ const cocteles = [
       cristaleria: 'Vaso highball o julep',
       garnish: 'Ramas de menta',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/MintJulep.jpg',
+      imagen: '/MintJulep.jpg',
     },
     {
       nombre: 'Whisky Sour',
@@ -143,7 +143,7 @@ const cocteles = [
       cristaleria: 'Vaso Old Fashioned',
       garnish: 'Cereza y rodaja de naranja',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/WhiskySour.jpg',
+      imagen: '/WhiskySour.jpg',
     },
     {
       nombre: 'Caipirinha',
@@ -152,7 +152,7 @@ const cocteles = [
       cristaleria: 'Vaso Old Fashioned',
       garnish: 'Rodaja de lima',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/Caipirinha.jpg',
+      imagen: '/Caipirinha.jpg',
     },
     {
       nombre: 'White Russian',
@@ -161,7 +161,7 @@ const cocteles = [
       cristaleria: 'Vaso Old Fashioned',
       garnish: 'Nuez moscada rallada',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/WhiteRussian.jpg',
+      imagen: '/WhiteRussian.jpg',
     },
     {
       nombre: 'Pisco Sour',
@@ -170,7 +170,7 @@ const cocteles = [
       cristaleria: 'Copa de cóctel',
       garnish: 'Gotas de amargo de Angostura',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/PiscoSour.jpg',
+      imagen: '/PiscoSour.jpg',
     },
     //Cocteles de autor
     {
@@ -180,7 +180,7 @@ const cocteles = [
       cristaleria: 'Vaso alto',
       garnish: 'Decoración de autor',
       categoria: 'autor',
-      imagen: 'http://localhost:3000/mojito.jpg',
+      imagen: '/mojito.jpg',
     },
     {
       nombre: 'Coctel de Autor 2',
@@ -189,7 +189,7 @@ const cocteles = [
       cristaleria: 'Vaso alto',
       garnish: 'Decoración de autor',
       categoria: 'autor',
-      imagen: 'http://localhost:3000/mojito.jpg',
+      imagen: '/mojito.jpg',
     },
     {
       nombre: 'Coctel de Autor 3',
@@ -198,7 +198,7 @@ const cocteles = [
       cristaleria: 'Vaso alto',
       garnish: 'Decoración de autor',
       categoria: 'autor',
-      imagen: 'http://localhost:3000/mojito.jpg',
+      imagen: '/mojito.jpg',
     },
     {
       nombre: 'Coctel de Autor 4',
@@ -207,7 +207,7 @@ const cocteles = [
       cristaleria: 'Vaso alto',
       garnish: 'Decoración de autor',
       categoria: 'autor',
-      imagen: 'http://localhost:3000/mojito.jpg',
+      imagen: '/mojito.jpg',
     },
     {
       nombre: 'Coctel de Autor 5',
@@ -216,7 +216,7 @@ const cocteles = [
       cristaleria: 'Vaso alto',
       garnish: 'Decoración de autor',
       categoria: 'autor',
-      imagen: 'http://localhost:3000/mojito.jpg',
+      imagen: '/mojito.jpg',
     },
     {
       nombre: 'Coctel de Autor 6',
@@ -225,7 +225,7 @@ const cocteles = [
       cristaleria: 'Vaso alto',
       garnish: 'Decoración de autor',
       categoria: 'autor',
-      imagen: 'http://localhost:3000/mojito.jpg',
+      imagen: '/mojito.jpg',
     },
     {
       nombre: 'Coctel de Autor 7',
@@ -234,7 +234,7 @@ const cocteles = [
       cristaleria: 'Vaso alto',
       garnish: 'Decoración de autor',
       categoria: 'autor',
-      imagen: 'http://localhost:3000/mojito.jpg',
+      imagen: '/mojito.jpg',
     },
     {
       nombre: 'Coctel de Autor 8',
@@ -243,7 +243,7 @@ const cocteles = [
       cristaleria: 'Vaso alto',
       garnish: 'Decoración de autor',
       categoria: 'autor',
-      imagen: 'http://localhost:3000/mojito.jpg',
+      imagen: '/mojito.jpg',
     },
   ];
   
