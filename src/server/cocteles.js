@@ -6,7 +6,7 @@ const cocteles = [
       cristaleria: 'Vaso alto',
       garnish: 'Hoja de menta y rodaja de limón',
       categoria: 'clasicos',
-      imagen: 'http://localhost:3000/mojito.jpg',
+      imagen: '/mojito.jpg',
     },
     {
       nombre: 'Margarita',

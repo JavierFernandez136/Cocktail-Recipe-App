@@ -28,7 +28,7 @@ const CoctelCard = ({ nombre, metodo, ingredientes, cristaleria, garnish, imagen
   return (
     <Grid item xs={12} sm={6} md={4} style={{ padding: '8px', maxWidth: '100%' }}>
       <StyledCard>
-        <CoctelCardImage src={imagen} alt={nombre} />
+        <CoctelCardImage src={process.env.PUBLIC_URL + imagen} alt={nombre} /> {/* Uso de process.env.PUBLIC_URL */}
         <CoctelCardContent>
           <Typography variant="h5" component="div" align="center">
             {nombre}
