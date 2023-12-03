@@ -36,8 +36,14 @@ const CoctelCard = ({ nombre, metodo, ingredientes, cristaleria, garnish, imagen
           <Typography variant="subtitle1" color="text.secondary">
             Método: {metodo}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Ingredientes: {ingredientes}
+          <Typography variant="body2" color="text.secondary" component="div">
+            {/* Uso del componente Typography con component="div" para mostrar los ingredientes en distintas líneas */}
+            Ingredientes:
+            <ul style={{ margin: '8px 0', paddingInlineStart: '20px' }}>
+              {ingredientes.split(',').map((ingrediente, index) => (
+                <li key={index}>{ingrediente}</li>
+              ))}
+            </ul>
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Cristalería: {cristaleria}
