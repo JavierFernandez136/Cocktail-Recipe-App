@@ -1,36 +1,35 @@
 import React, { useState } from 'react';
-import { Paper, IconButton, InputAdornment, TextField } from "@mui/material";
+import { Paper, InputBase, IconButton } from "@mui/material";
 import { Search } from '@mui/icons-material';
 
 const Buscador = ({ onBuscar }) => {
   const [busqueda, setBusqueda] = useState('');
 
   const handleInputChange = (event) => {
-    setBusqueda(event.target.value);
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    onBuscar(busqueda.trim().toLowerCase().replace(/\s+/g, ''));
+    const valor = event.target.value;
+    setBusqueda(valor);
+    onBuscar(valor); // Llamar a la función `onBuscar` con cada cambio en el texto
   };
 
   return (
-    <Paper component="form" onSubmit={handleSubmit}>
-      <TextField
-        label="Buscar cóctel"
+    <Paper
+      sx={{
+        display: 'flex',
+        alignItems: 'center',
+        padding: '4px 8px',
+        marginBottom: '16px',
+        width: '100%',
+      }}
+    >
+      <InputBase
+        placeholder="Buscar cóctel..."
         value={busqueda}
         onChange={handleInputChange}
-        variant="outlined"
-        InputProps={{
-          endAdornment: (
-            <InputAdornment position="end">
-              <IconButton type="submit">
-                <Search />
-              </IconButton>
-            </InputAdornment>
-          )
-        }}
+        sx={{ marginLeft: 1, flex: 1 }}
       />
+      <IconButton sx={{ padding: '10px' }}>
+        <Search />
+      </IconButton>
     </Paper>
   );
 };
