@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { Grid, Container, Typography, ButtonGroup, Button } from "@mui/material";
+import { Grid, Container, Typography, ButtonGroup, Button, Box } from "@mui/material";
 import CoctelCard from "./components/CoctelCard";
 import Buscador from "./components/Buscador";
 import cocteles from "./server/cocteles.js";
+import Header from "./components/Header.js"; // Importamos el Header
 
 const App = () => {
   const [textoBusqueda, setTextoBusqueda] = useState("");
@@ -59,37 +60,42 @@ const App = () => {
   const coctelesMostrados = filtrarYOrdenarCocteles();
 
   return (
-    <Container>
-      <Typography variant="h4" component="h1" align="center" gutterBottom>
-        Recetario de Cócteles
-      </Typography>
-      <Buscador onBuscar={handleBuscar} />
-      <ButtonGroup sx={{ marginBottom: "16px" }}>
-        <Button onClick={mostrarTodosLosCocteles}>Todos</Button>
-        <Button onClick={mostrarCoctelesClasicos}>Clásicos</Button>
-        <Button onClick={mostrarCoctelesDeAutor}>De Autor</Button>
-      </ButtonGroup>
-      <Grid container spacing={2}>
-        {coctelesMostrados.length > 0 ? (
-          coctelesMostrados.map((coctel) => (
-            <Grid item xs={12} sm={6} md={4} key={coctel.nombre}>
-              <CoctelCard
-                nombre={coctel.nombre}
-                metodo={coctel.metodo}
-                ingredientes={coctel.ingredientes}
-                cristaleria={coctel.cristaleria}
-                garnish={coctel.garnish}
-                imagen={coctel.imagen}
-              />
-            </Grid>
-          ))
-        ) : (
-          <Typography variant="h6" align="center" sx={{ width: "100%", marginTop: "20px" }}>
-            No se encontraron cócteles
-          </Typography>
-        )}
-      </Grid>
-    </Container>
+    <>
+      <Header /> {/* Usamos el Header aquí */}
+      <Container sx={{ marginTop: "24px" }}>
+        {/* Buscador y botones de categorías */}
+        <Box sx={{ marginBottom: "16px" }}>
+          <Buscador onBuscar={handleBuscar} />
+          <ButtonGroup>
+            <Button onClick={mostrarTodosLosCocteles}>Todos</Button>
+            <Button onClick={mostrarCoctelesClasicos}>Clásicos</Button>
+            <Button onClick={mostrarCoctelesDeAutor}>De Autor</Button>
+          </ButtonGroup>
+        </Box>
+
+        {/* Grid con las tarjetas de cócteles */}
+        <Grid container spacing={2}>
+          {coctelesMostrados.length > 0 ? (
+            coctelesMostrados.map((coctel) => (
+              <Grid item xs={12} sm={6} md={4} key={coctel.nombre}>
+                <CoctelCard
+                  nombre={coctel.nombre}
+                  metodo={coctel.metodo}
+                  ingredientes={coctel.ingredientes}
+                  cristaleria={coctel.cristaleria}
+                  garnish={coctel.garnish}
+                  imagen={coctel.imagen}
+                />
+              </Grid>
+            ))
+          ) : (
+            <Typography variant="h6" align="center" sx={{ width: "100%", marginTop: "20px" }}>
+              No se encontraron cócteles
+            </Typography>
+          )}
+        </Grid>
+      </Container>
+    </>
   );
 };
 
