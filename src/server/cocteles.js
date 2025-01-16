@@ -189,7 +189,7 @@ const cocteles = [
       cristaleria: 'Vaso Trago Largo',
       garnish: 'Gajo de Gelatina y Tintura de Frutos Rojos',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/Evas.jpg',
     },
     {
       nombre: 'Love Potion N°1',
@@ -198,7 +198,7 @@ const cocteles = [
       cristaleria: 'Copa Coctel',
       garnish: 'Pincho de Cereza y Perfume de ElderFlower',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/LovePotion.jpg',
     },
     {
       nombre: 'Black Flag',
@@ -207,7 +207,7 @@ const cocteles = [
       cristaleria: 'Vaso Trago Largo',
       garnish: 'Penacho de Menta,Lima Deshidratada,Flor',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/BlackFlag.jpg',
     },
     {
       nombre: 'Antonios Pool Party',
@@ -216,7 +216,7 @@ const cocteles = [
       cristaleria: 'Vaso Corto',
       garnish: 'Rosa Mosqueta',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/AntoniosParty.jpg',
     },
     {
       nombre: 'El secreto de Sophia',
@@ -225,7 +225,7 @@ const cocteles = [
       cristaleria: 'Vaso Corto',
       garnish: 'Penacho de Menta y Perfume de Branca Menta',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/SecretoDeSofia.jpg',
     },
     {
       nombre: 'Cita en Milan',
@@ -234,7 +234,7 @@ const cocteles = [
       cristaleria: 'Vaso Corto',
       garnish: 'Pera Deshidratada en Vino',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/CitaEnMilan.jpg',
     },
     {
       nombre: 'Coco Bay',
@@ -243,7 +243,7 @@ const cocteles = [
       cristaleria: 'Vaso Trago Largo',
       garnish: 'Penacho de Menta y Pepino',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/CocoBay.jpg',
     },
     {
       nombre: 'Antidote',
@@ -252,7 +252,7 @@ const cocteles = [
       cristaleria: 'Kitasato',
       garnish: 'Ahumado de Canela y Corcho con Flor',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/Antidote.jpg',
     },
     {
       nombre: 'Brazilian Whitchcraft',
@@ -261,7 +261,7 @@ const cocteles = [
       cristaleria: 'Vaso Corto',
       garnish: 'Canela en Polvo y Lima con Flor',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/Brazilian.jpg',
     },
     {
       nombre: 'Regalo de Dios',
@@ -270,7 +270,7 @@ const cocteles = [
       cristaleria: 'Balon Quimica',
       garnish: 'Corcho con Flor',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/RegaloDios.jpg',
     },
     {
       nombre: 'Dinastia Tang',
@@ -279,7 +279,7 @@ const cocteles = [
       cristaleria: 'Copa de Martini',
       garnish: '',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/Dinastia.jpg',
     },
     {
       nombre: 'Panty Spritz',
@@ -288,7 +288,7 @@ const cocteles = [
       cristaleria: 'Copón',
       garnish: 'Cereza y Hoja de Bambú',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/PantySpritz.jpg',
     },
     {
       nombre: 'California Love',
@@ -297,7 +297,7 @@ const cocteles = [
       cristaleria: 'Copa Coctel Chidaaa',
       garnish: 'Gomitas de Kumquat',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/California.jpg',
     },
     {
       nombre: 'Matcha Royal',
@@ -306,7 +306,7 @@ const cocteles = [
       cristaleria: 'Vaso Trago Largo',
       garnish: 'Penacho de Menta y Chocolate Blanco con Matcha',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/Matcha.jpg',
     },
     {
       nombre: 'Fresquito Cubano',
@@ -315,7 +315,7 @@ const cocteles = [
       cristaleria: 'Vaso Trago Largo',
       garnish: 'Hojas de Eucalipto y Rosa de Manzana Acaramelada',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/Fresquito.jpg',
     },
     {
       nombre: 'Cosa Bella',
@@ -324,7 +324,7 @@ const cocteles = [
       cristaleria: 'Copa Coupe',
       garnish: 'Pera Deshidratada',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/CosaBella.jpg',
     },
     {
       nombre: 'Suspiro Andino',
@@ -333,7 +333,7 @@ const cocteles = [
       cristaleria: 'Copa Coupe',
       garnish: 'Cacao Amargo',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/Suspiro.jpg',
     },
     {
       nombre: 'Siete Tres Cuartos',
@@ -342,7 +342,7 @@ const cocteles = [
       cristaleria: 'Vaso Corto',
       garnish: 'Galletita con Sal Marina y Ralladura de Lima',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/SieteTresCuartos.jpg',
     },
   ];
   
