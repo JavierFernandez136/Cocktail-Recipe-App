@@ -6,7 +6,7 @@ const cocteles = [
       cristaleria: 'Vaso alto',
       garnish: 'Hoja de menta y rodaja de limón',
       categoria: 'clasicos',
-      imagen: '/mojito.jpg',
+      imagen: '/imagenesCoctels/mojito.jpg',
     },
     {
       nombre: 'Margarita',
@@ -15,7 +15,7 @@ const cocteles = [
       cristaleria: 'Copa de margarita',
       garnish: 'Rodaja de limón',
       categoria: 'clasicos',
-      imagen: '/margarita.jpg',
+      imagen: '/imagenesCoctels/margarita.jpg',
     },
    
     {
@@ -25,7 +25,7 @@ const cocteles = [
       cristaleria: 'Vaso Old Fashioned',
       garnish: 'Twist de naranja y cereza',
       categoria: 'clasicos',
-      imagen: '/oldFashioned.jpg',
+      imagen: '/imagenesCoctels/oldFashioned.jpg',
     },
     {
       nombre: 'Negroni',
@@ -34,7 +34,7 @@ const cocteles = [
       cristaleria: 'Vaso Old Fashioned',
       garnish: 'Twist de naranja',
       categoria: 'clasicos',
-      imagen: '/negroni.jpg',
+      imagen: '/imagenesCoctels/negroni.jpg',
     },
     {
       nombre: 'Martini',
@@ -43,7 +43,7 @@ const cocteles = [
       cristaleria: 'Copa de martini',
       garnish: 'Aceituna o twist de limón',
       categoria: 'clasicos',
-      imagen: '/martini.jpg',
+      imagen: '/imagenesCoctels/martini.jpg',
     },
     
     {
@@ -53,7 +53,7 @@ const cocteles = [
       cristaleria: 'Copa de martini',
       garnish: 'Twist de lima',
       categoria: 'clasicos',
-      imagen: '/cosmopolitan.jpg',
+      imagen: '/imagenesCoctels/cosmopolitan.jpg',
     },
     {
       nombre: 'Daiquiri',
@@ -62,7 +62,7 @@ const cocteles = [
       cristaleria: 'Copa de cóctel',
       garnish: 'Rueda de lima',
       categoria: 'clasicos',
-      imagen: '/daiquiri.jpg',
+      imagen: '/imagenesCoctels/daiquiri.jpg',
     },
     {
       nombre: 'Gimlet',
@@ -71,7 +71,7 @@ const cocteles = [
       cristaleria: 'Copa de cóctel',
       garnish: 'Rueda de lima',
       categoria: 'clasicos',
-      imagen: '/gimlet.jpg',
+      imagen: '/imagenesCoctels/gimlet.jpg',
     },
     {
       nombre: 'Sazerac',
@@ -80,7 +80,7 @@ const cocteles = [
       cristaleria: 'Vaso Old Fashioned',
       garnish: 'Cáscara de limón',
       categoria: 'clasicos',
-      imagen: '/Sazerac.jpg',
+      imagen: '/imagenesCoctels/Sazerac.jpg',
     },
     {
       nombre: 'Sidecar',
@@ -89,7 +89,7 @@ const cocteles = [
       cristaleria: 'Copa de cóctel',
       garnish: 'Twist de limón',
       categoria: 'clasicos',
-      imagen: '/Sidecar.jpg',
+      imagen: '/imagenesCoctels/Sidecar.jpg',
     },
     {
       nombre: 'Manhattan',
@@ -98,7 +98,7 @@ const cocteles = [
       cristaleria: 'Copa de cóctel',
       garnish: 'Cereza',
       categoria: 'clasicos',
-      imagen: '/Manhattan.jpg',
+      imagen: '/imagenesCoctels/Manhattan.jpg',
     },
     {
       nombre: 'Mai Tai',
@@ -107,7 +107,7 @@ const cocteles = [
       cristaleria: 'Vaso highball',
       garnish: 'Cereza y rodaja de piña',
       categoria: 'clasicos',
-      imagen: '/MaiTai.jpg',
+      imagen: '/imagenesCoctels/MaiTai.jpg',
     },
     {
       nombre: 'Tom Collins',
@@ -116,7 +116,7 @@ const cocteles = [
       cristaleria: 'Vaso highball',
       garnish: 'Rodaja de limón y cereza',
       categoria: 'clasicos',
-      imagen: '/TomCollins.jpg',
+      imagen: '/imagenesCoctels/TomCollins.jpg',
     },
     {
       nombre: 'Bloody Mary',
@@ -125,7 +125,7 @@ const cocteles = [
       cristaleria: 'Vaso highball',
       garnish: 'Apio, rodaja de limón y lima, aceituna',
       categoria: 'clasicos',
-      imagen: '/BloodyMary.jpg',
+      imagen: '/imagenesCoctels/BloodyMary.jpg',
     },
     {
       nombre: 'Mint Julep',
@@ -134,7 +134,7 @@ const cocteles = [
       cristaleria: 'Vaso highball o julep',
       garnish: 'Ramas de menta',
       categoria: 'clasicos',
-      imagen: '/MintJulep.jpg',
+      imagen: '/imagenesCoctels/MintJulep.jpg',
     },
     {
       nombre: 'Whisky Sour',
@@ -143,7 +143,7 @@ const cocteles = [
       cristaleria: 'Vaso Old Fashioned',
       garnish: 'Cereza y rodaja de naranja',
       categoria: 'clasicos',
-      imagen: '/WhiskySour.jpg',
+      imagen: '/imagenesCoctels/WhiskySour.jpg',
     },
     {
       nombre: 'Caipirinha',
@@ -152,7 +152,7 @@ const cocteles = [
       cristaleria: 'Vaso Old Fashioned',
       garnish: 'Rodaja de lima',
       categoria: 'clasicos',
-      imagen: '/Caipirinha.jpg',
+      imagen: '/imagenesCoctels/Caipirinha.jpg',
     },
     {
       nombre: 'White Russian',
@@ -161,7 +161,7 @@ const cocteles = [
       cristaleria: 'Vaso Old Fashioned',
       garnish: 'Nuez moscada rallada',
       categoria: 'clasicos',
-      imagen: '/WhiteRussian.jpg',
+      imagen: '/imagenesCoctels/WhiteRussian.jpg',
     },
     {
       nombre: 'Pisco Sour',
@@ -170,7 +170,7 @@ const cocteles = [
       cristaleria: 'Copa de cóctel',
       garnish: 'Gotas de amargo de Angostura',
       categoria: 'clasicos',
-      imagen: '/PiscoSour.jpg',
+      imagen: '/imagenesCoctels/PiscoSour.jpg',
     },
     //Cocteles de autor
     {
@@ -180,7 +180,7 @@ const cocteles = [
       cristaleria: 'Vaso alto',
       garnish: 'Decoración de autor',
       categoria: 'autor',
-      imagen: '/mojito.jpg',
+      imagen: '/imagenesCoctels/mojito.jpg',
     },
     {
       nombre: 'Evas',
@@ -189,7 +189,7 @@ const cocteles = [
       cristaleria: 'Vaso Trago Largo',
       garnish: 'Gajo de Gelatina y Tintura de Frutos Rojos',
       categoria: 'autor',
-      imagen: '/Evas.jpg',
+      imagen: '/imagenesCoctels/Evas.jpg',
     },
     {
       nombre: 'Love Potion N°1',
@@ -198,7 +198,7 @@ const cocteles = [
       cristaleria: 'Copa Coctel',
       garnish: 'Pincho de Cereza y Perfume de ElderFlower',
       categoria: 'autor',
-      imagen: '/LovePotion.jpg',
+      imagen: '/imagenesCoctels/LovePotion.jpg',
     },
     {
       nombre: 'Black Flag',
@@ -207,7 +207,7 @@ const cocteles = [
       cristaleria: 'Vaso Trago Largo',
       garnish: 'Penacho de Menta,Lima Deshidratada,Flor',
       categoria: 'autor',
-      imagen: '/BlackFlag.jpg',
+      imagen: '/imagenesCoctels/BlackFlag.jpg',
     },
     {
       nombre: 'Antonios Pool Party',
@@ -216,7 +216,7 @@ const cocteles = [
       cristaleria: 'Vaso Corto',
       garnish: 'Rosa Mosqueta',
       categoria: 'autor',
-      imagen: '/AntoniosParty.jpg',
+      imagen: '/imagenesCoctels/AntoniosParty.jpg',
     },
     {
       nombre: 'El secreto de Sophia',
@@ -225,7 +225,7 @@ const cocteles = [
       cristaleria: 'Vaso Corto',
       garnish: 'Penacho de Menta y Perfume de Branca Menta',
       categoria: 'autor',
-      imagen: '/SecretoDeSofia.jpg',
+      imagen: '/imagenesCoctels/SecretoDeSofia.jpg',
     },
     {
       nombre: 'Cita en Milan',
@@ -234,7 +234,7 @@ const cocteles = [
       cristaleria: 'Vaso Corto',
       garnish: 'Pera Deshidratada en Vino',
       categoria: 'autor',
-      imagen: '/CitaEnMilan.jpg',
+      imagen: '/imagenesCoctels/CitaEnMilan.jpg',
     },
     {
       nombre: 'Coco Bay',
@@ -243,7 +243,7 @@ const cocteles = [
       cristaleria: 'Vaso Trago Largo',
       garnish: 'Penacho de Menta y Pepino',
       categoria: 'autor',
-      imagen: '/CocoBay.jpg',
+      imagen: '/imagenesCoctels/CocoBay.jpg',
     },
     {
       nombre: 'Antidote',
@@ -252,7 +252,7 @@ const cocteles = [
       cristaleria: 'Kitasato',
       garnish: 'Ahumado de Canela y Corcho con Flor',
       categoria: 'autor',
-      imagen: '/Antidote.jpg',
+      imagen: '/imagenesCoctels/Antidote.jpg',
     },
     {
       nombre: 'Brazilian Whitchcraft',
@@ -261,7 +261,7 @@ const cocteles = [
       cristaleria: 'Vaso Corto',
       garnish: 'Canela en Polvo y Lima con Flor',
       categoria: 'autor',
-      imagen: '/Brazilian.jpg',
+      imagen: '/imagenesCoctels/Brazilian.jpg',
     },
     {
       nombre: 'Regalo de Dios',
@@ -270,7 +270,7 @@ const cocteles = [
       cristaleria: 'Balon Quimica',
       garnish: 'Corcho con Flor',
       categoria: 'autor',
-      imagen: '/RegaloDios.jpg',
+      imagen: '/imagenesCoctels/RegaloDios.jpg',
     },
     {
       nombre: 'Dinastia Tang',
@@ -279,7 +279,7 @@ const cocteles = [
       cristaleria: 'Copa de Martini',
       garnish: '',
       categoria: 'autor',
-      imagen: '/Dinastia.jpg',
+      imagen: '/imagenesCoctels/Dinastia.jpg',
     },
     {
       nombre: 'Panty Spritz',
@@ -288,7 +288,7 @@ const cocteles = [
       cristaleria: 'Copón',
       garnish: 'Cereza y Hoja de Bambú',
       categoria: 'autor',
-      imagen: '/PantySpritz.jpg',
+      imagen: '/imagenesCoctels/PantySpritz.jpg',
     },
     {
       nombre: 'California Love',
@@ -297,7 +297,7 @@ const cocteles = [
       cristaleria: 'Copa Coctel Chidaaa',
       garnish: 'Gomitas de Kumquat',
       categoria: 'autor',
-      imagen: '/California.jpg',
+      imagen: '/imagenesCoctels/California.jpg',
     },
     {
       nombre: 'Matcha Royal',
@@ -306,7 +306,7 @@ const cocteles = [
       cristaleria: 'Vaso Trago Largo',
       garnish: 'Penacho de Menta y Chocolate Blanco con Matcha',
       categoria: 'autor',
-      imagen: '/Matcha.jpg',
+      imagen: '/imagenesCoctels/Matcha.jpg',
     },
     {
       nombre: 'Fresquito Cubano',
@@ -315,7 +315,7 @@ const cocteles = [
       cristaleria: 'Vaso Trago Largo',
       garnish: 'Hojas de Eucalipto y Rosa de Manzana Acaramelada',
       categoria: 'autor',
-      imagen: '/Fresquito.jpg',
+      imagen: '/imagenesCoctels/Fresquito.jpg',
     },
     {
       nombre: 'Cosa Bella',
@@ -324,7 +324,7 @@ const cocteles = [
       cristaleria: 'Copa Coupe',
       garnish: 'Pera Deshidratada',
       categoria: 'autor',
-      imagen: '/CosaBella.jpg',
+      imagen: '/imagenesCoctels/CosaBella.jpg',
     },
     {
       nombre: 'Suspiro Andino',
@@ -333,7 +333,7 @@ const cocteles = [
       cristaleria: 'Copa Coupe',
       garnish: 'Cacao Amargo',
       categoria: 'autor',
-      imagen: '/Suspiro.jpg',
+      imagen: '/imagenesCoctels/Suspiro.jpg',
     },
     {
       nombre: 'Siete Tres Cuartos',
@@ -342,7 +342,7 @@ const cocteles = [
       cristaleria: 'Vaso Corto',
       garnish: 'Galletita con Sal Marina y Ralladura de Lima',
       categoria: 'autor',
-      imagen: '/SieteTresCuartos.jpg',
+      imagen: '/imagenesCoctels/SieteTresCuartos.jpg',
     },
   ];
   

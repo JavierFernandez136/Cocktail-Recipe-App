@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Paper, InputBase, IconButton } from "@mui/material";
 import { Search } from '@mui/icons-material';
 
-const Buscador = ({ onBuscar }) => {
+const Buscador = ({ onBuscar, placeholder = "Buscar cóctel..." }) => {
   const [busqueda, setBusqueda] = useState('');
 
   const handleInputChange = (event) => {
@@ -22,7 +22,7 @@ const Buscador = ({ onBuscar }) => {
       }}
     >
       <InputBase
-        placeholder="Buscar cóctel..."
+        placeholder={placeholder}
         value={busqueda}
         onChange={handleInputChange}
         sx={{ marginLeft: 1, flex: 1 }}
